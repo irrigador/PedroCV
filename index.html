@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de [Seu Nome]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .pdf-viewer {
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            text-align: center;
+        }
+
+        .download-btn a {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .download-btn a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Currículo de Pedro Guilherme</h1>
+        <p>Aqui está o meu currículo. Você pode visualizá-lo abaixo ou fazer o download.</p>
+        
+        <!-- Visualização do PDF -->
+        <div class="pdf-viewer">
+            <embed src="curriculo.pdf" type="application/pdf" width="100%" height="600px">
+        </div>
+
+        <!-- Botão de download -->
+        <div class="download-btn">
+            <a href="curriculo.pdf" download>Baixar Currículo</a>
+        </div>
+    </div>
+
+    <script>
+        // Você pode adicionar alguma interação futura aqui, se necessário
+    </script>
+</body>
+</html>
